@@ -4,9 +4,9 @@ secrets:
   # Secrets are single-line text files where the sole content is the secret
   # Paths in this example assume that secrets are kept in local folder called ".secrets"
   DB_ROOT_PWD:
-    file: .secrets/db_root_pwd.txt #edit with your path
+    file: .secrets/db_root_pwd.txt #edit with your path if differnt from my guide
   MYSQL_PWD:
-    file: .secrets/mysql_pwd.txt #edit with your path
+    file: .secrets/mysql_pwd.txt #edit with your path if differnt from my guide
 
 
 services:

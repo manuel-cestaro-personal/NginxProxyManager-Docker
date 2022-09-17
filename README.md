@@ -6,7 +6,16 @@ References: https://nginxproxymanager.com/guide/
 The goal is to create an NPM container that saves data persistently and easily copied to a backup. I also followed the best practices and insights from the official website.
 
 ## Start the containers
-
+- clone the repo
+- `mkdir .secrets && cd .secrets`
+- `nano db_root_pwd.txt` --> write the pwd of the root user of mysql db
+- `nano mysql_pwd.txt` --> write the pwd of the user used from NPM container
+- `cd ..`
+- `docker network create <Your_Network_Name>` --> create your docker network
+- `nano docker-compose.yml` --> edit the file with `<Your_Network_Name>`
+- if you want edit the `docker-compose.yml` with differents paths for the `.secret` directory or the `mount bind` volumes
+- `docker-compose up -d`
+- use `docker ps -a` to check the containers
 
 ## Other information about NPM
 ### Features
