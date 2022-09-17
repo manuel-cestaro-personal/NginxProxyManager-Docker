@@ -23,4 +23,4 @@ User management, permissions and audit log
 - Use the Nginx Proxy Manager as your gateway to forward to your other web based services
 
 ## Conclusions
-A very simple but functional tool for hosting but also as a reverse proxy of an application!  &#128521; &#128406;
+A very simple but functional tool for hosting but also as a reverse proxy of an application!  &#128521;&#128406;
