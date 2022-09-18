@@ -7,6 +7,7 @@ The goal is to create an NPM container that saves data persistently and easily c
 
 ## Start the containers
 - clone the repo https://github.com/manuel-cestaro-personal/NginxProxyManager-Docker/archive/refs/heads/main.zip
+- `cd NginxProxyManager-Docker`
 - `mkdir .secrets && cd .secrets`
 - `nano db_root_pwd.txt` --> write the pwd of the root user of mysql db
 - `nano mysql_pwd.txt` --> write the pwd of the user used from NPM container
