@@ -58,7 +58,7 @@ services:
       # MYSQL_PASSWORD: "npm"  # use secret instead
       MYSQL_PASSWORD__FILE: /run/secrets/MYSQL_PWD
     volumes:
-      - ./nginx-volume/data/mysql:/var/lib/mysql #edit with your path
+      - ./nginx-volume/mysql:/var/lib/mysql #edit with your path
     secrets:
       - DB_ROOT_PWD
       - MYSQL_PWD
